@@ -8,6 +8,7 @@ const WeatherDescript = (prompt, weatherData) => {
 - Provide an opinion about what the weather feels like. 
 - Provide temperature in either Celsius or Fahrenheit, whichever is more appropriate. 
 - Never display the temperature in Kelvin. 
+- Always use the prompt original language.
 - Provide a recommendation on how to prepare and what to wear (e.g. bring an umbrella, wear a wind breaker, a warm jacket, etc.)`;
 
   const newPrompt = `Question: ${prompt}. Weather Data: ${JSON.stringify(
